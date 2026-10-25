@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/helix-tech-banner.png" alt="Helix Tech: build, configure, optimize. Linux tooling in Rust, Python and JavaScript" width="100%">
+  <img src="assets/helix-tech-banner-2.jpg" alt="Helix Tech: Linux tooling in Rust, Python and JavaScript" width="100%">
 </p>
 
 ### Hi, I'm Matt 👋
