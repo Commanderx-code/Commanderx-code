@@ -157,7 +157,7 @@ def stats_card(repos):
   {"".join(bar)}
   {"".join(legend)}
   <line x1="34" y1="225" x2="826" y2="225" stroke="#394b4c"/>
-  <text x="34" y="245" class="note">Public, non-fork repositories</text>
+  <text x="34" y="245" class="note">Repo, release and language totals exclude forks</text>
   <text x="826" y="245" class="note" text-anchor="end">Updated {updated}</text>
 </svg>
 '''
