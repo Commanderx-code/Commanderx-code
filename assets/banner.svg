@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2258"/><stop offset="0.6" stop-color="#0d0f2c"/><stop offset="1" stop-color="#140a2e"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3bd2ff"/><stop offset="1" stop-color="#d040ff"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#e2e4f0"/><stop offset="0.56" stop-color="#a9adc8"/><stop offset="1" stop-color="#d4d6e6"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3bd2ff"/><stop offset="1" stop-color="#d040ff"/>
+    </linearGradient>
+    <linearGradient id="s1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3bd2ff"/><stop offset="1" stop-color="#7a6cff"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b04cf0"/><stop offset="1" stop-color="#3bd2ff"/>
+    </linearGradient>
+    <linearGradient id="rung" gradientUnits="userSpaceOnUse" x1="90" y1="0" x2="210" y2="0">
+      <stop offset="0" stop-color="#3bd2ff"/><stop offset="1" stop-color="#d040ff"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.12" cy="0.5" r="0.35">
+      <stop offset="0" stop-color="#3bd2ff" stop-opacity="0.22"/><stop offset="1" stop-color="#3bd2ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo2" cx="0.85" cy="0.2" r="0.4">
+      <stop offset="0" stop-color="#d040ff" stop-opacity="0.16"/><stop offset="1" stop-color="#d040ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#ffffff" opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="1276" height="316" rx="26" fill="url(#bg)"/>
+  <rect x="2" y="2" width="1276" height="316" rx="26" fill="url(#dots)"/>
+  <rect x="2" y="2" width="1276" height="316" rx="26" fill="url(#halo)"/>
+  <rect x="2" y="2" width="1276" height="316" rx="26" fill="url(#halo2)"/>
+  <rect x="2" y="2" width="1276" height="316" rx="26" fill="none" stroke="url(#rim)" stroke-width="3"/>
+  <g filter="url(#glow)">
+    <line x1="177.7" y1="62.3" x2="122.3" y2="62.3" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="196.9" y1="78.6" x2="103.1" y2="78.6" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="201.7" y1="94.9" x2="98.3" y2="94.9" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="190.7" y1="111.1" x2="109.3" y2="111.1" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="167.2" y1="127.4" x2="132.8" y2="127.4" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="138.4" y1="143.7" x2="161.6" y2="143.7" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="113.2" y1="160.0" x2="186.8" y2="160.0" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="99.3" y1="176.3" x2="200.7" y2="176.3" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="100.9" y1="192.6" x2="199.1" y2="192.6" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="117.6" y1="208.9" x2="182.4" y2="208.9" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="172.6" y1="241.4" x2="127.4" y2="241.4" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/><line x1="194.0" y1="257.7" x2="106.0" y2="257.7" stroke="url(#rung)" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M150.0 46.0 L153.4 47.9 L156.8 49.8 L160.1 51.7 L163.5 53.6 L166.7 55.5 L169.9 57.4 L173.0 59.3 L176.0 61.2 L178.9 63.1 L181.7 65.0 L184.3 66.9 L186.8 68.8 L189.1 70.7 L191.3 72.6 L193.2 74.5 L195.0 76.4 L196.6 78.3 L198.0 80.2 L199.2 82.1 L200.2 84.0 L201.0 85.9 L201.6 87.8 L201.9 89.7 L202.0 91.6 L201.9 93.5 L201.6 95.4 L201.0 97.3 L200.2 99.2 L199.2 101.1 L198.0 103.0 L196.6 104.9 L195.0 106.8 L193.2 108.7 L191.3 110.6 L189.1 112.5 L186.8 114.4 L184.3 116.3 L181.7 118.2 L178.9 120.1 L176.0 122.0 L173.0 123.9 L169.9 125.8 L166.7 127.7 L163.5 129.6 L160.1 131.5 L156.8 133.4 L153.4 135.3 L150.0 137.2 L146.6 139.1 L143.2 141.0 L139.9 142.9 L136.5 144.8 L133.3 146.7 L130.1 148.6 L127.0 150.5 L124.0 152.4 L121.1 154.3 L118.3 156.2 L115.7 158.1 L113.2 160.0 L110.9 161.9 L108.7 163.8 L106.8 165.7 L105.0 167.6 L103.4 169.5 L102.0 171.4 L100.8 173.3 L99.8 175.2 L99.0 177.1 L98.4 179.0 L98.1 180.9 L98.0 182.8 L98.1 184.7 L98.4 186.6 L99.0 188.5 L99.8 190.4 L100.8 192.3 L102.0 194.2 L103.4 196.1 L105.0 198.0 L106.8 199.9 L108.7 201.8 L110.9 203.7 L113.2 205.6 L115.7 207.5 L118.3 209.4 L121.1 211.3 L124.0 213.2 L127.0 215.1 L130.1 217.0 L133.3 218.9 L136.5 220.8 L139.9 222.7 L143.2 224.6 L146.6 226.5 L150.0 228.4 L153.4 230.3 L156.8 232.2 L160.1 234.1 L163.5 236.0 L166.7 237.9 L169.9 239.8 L173.0 241.7 L176.0 243.6 L178.9 245.5 L181.7 247.4 L184.3 249.3 L186.8 251.2 L189.1 253.1 L191.3 255.0 L193.2 256.9 L195.0 258.8 L196.6 260.7 L198.0 262.6 L199.2 264.5 L200.2 266.4 L201.0 268.3 L201.6 270.2 L201.9 272.1 L202.0 274.0" fill="none" stroke="url(#s1)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M150.0 46.0 L146.6 47.9 L143.2 49.8 L139.9 51.7 L136.5 53.6 L133.3 55.5 L130.1 57.4 L127.0 59.3 L124.0 61.2 L121.1 63.1 L118.3 65.0 L115.7 66.9 L113.2 68.8 L110.9 70.7 L108.7 72.6 L106.8 74.5 L105.0 76.4 L103.4 78.3 L102.0 80.2 L100.8 82.1 L99.8 84.0 L99.0 85.9 L98.4 87.8 L98.1 89.7 L98.0 91.6 L98.1 93.5 L98.4 95.4 L99.0 97.3 L99.8 99.2 L100.8 101.1 L102.0 103.0 L103.4 104.9 L105.0 106.8 L106.8 108.7 L108.7 110.6 L110.9 112.5 L113.2 114.4 L115.7 116.3 L118.3 118.2 L121.1 120.1 L124.0 122.0 L127.0 123.9 L130.1 125.8 L133.3 127.7 L136.5 129.6 L139.9 131.5 L143.2 133.4 L146.6 135.3 L150.0 137.2 L153.4 139.1 L156.8 141.0 L160.1 142.9 L163.5 144.8 L166.7 146.7 L169.9 148.6 L173.0 150.5 L176.0 152.4 L178.9 154.3 L181.7 156.2 L184.3 158.1 L186.8 160.0 L189.1 161.9 L191.3 163.8 L193.2 165.7 L195.0 167.6 L196.6 169.5 L198.0 171.4 L199.2 173.3 L200.2 175.2 L201.0 177.1 L201.6 179.0 L201.9 180.9 L202.0 182.8 L201.9 184.7 L201.6 186.6 L201.0 188.5 L200.2 190.4 L199.2 192.3 L198.0 194.2 L196.6 196.1 L195.0 198.0 L193.2 199.9 L191.3 201.8 L189.1 203.7 L186.8 205.6 L184.3 207.5 L181.7 209.4 L178.9 211.3 L176.0 213.2 L173.0 215.1 L169.9 217.0 L166.7 218.9 L163.5 220.8 L160.1 222.7 L156.8 224.6 L153.4 226.5 L150.0 228.4 L146.6 230.3 L143.2 232.2 L139.9 234.1 L136.5 236.0 L133.3 237.9 L130.1 239.8 L127.0 241.7 L124.0 243.6 L121.1 245.5 L118.3 247.4 L115.7 249.3 L113.2 251.2 L110.9 253.1 L108.7 255.0 L106.8 256.9 L105.0 258.8 L103.4 260.7 L102.0 262.6 L100.8 264.5 L99.8 266.4 L99.0 268.3 L98.4 270.2 L98.1 272.1 L98.0 274.0" fill="none" stroke="url(#s2)" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="Fira Sans, DejaVu Sans, sans-serif" font-weight="900">
+    <text x="290" y="166" font-size="118" letter-spacing="6" fill="#3bd2ff" opacity="0.3" filter="url(#soft)">HELIX</text>
+    <text x="652" y="166" font-size="118" letter-spacing="6" fill="#d040ff" opacity="0.4" filter="url(#soft)">TECH</text>
+    <text x="290" y="166" font-size="118" letter-spacing="6" fill="url(#metal)" stroke="#0b0d24" stroke-width="2">HELIX</text>
+    <text x="652" y="166" font-size="118" letter-spacing="6" fill="url(#neon)" stroke="#0b0d24" stroke-width="2">TECH</text>
+  </g>
+  <rect x="294" y="190" width="636" height="4" rx="2" fill="url(#neon)" filter="url(#glow)"/>
+  <g font-family="Fira Sans, DejaVu Sans, sans-serif" font-weight="700" font-size="24" letter-spacing="7" fill="#e2e4f0">
+    <text x="296" y="236">BUILD</text><circle cx="418" cy="228" r="6" fill="#3bd2ff"/>
+    <text x="440" y="236">CONFIGURE</text><circle cx="644" cy="228" r="6" fill="#d040ff"/>
+    <text x="666" y="236">OPTIMIZE</text>
+  </g>
+  <text x="296" y="276" font-family="Fira Sans, DejaVu Sans, sans-serif" font-weight="500" font-size="20" fill="#9ea2bd" letter-spacing="1">Commander · Linux tooling in Rust and Python</text>
+</svg>
