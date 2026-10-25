@@ -111,57 +111,54 @@ def stats_card(repos):
         for language, size in get(f"/repos/{USER}/{repo['name']}/languages").items():
             sizes[language] = sizes.get(language, 0) + size
     total = sum(sizes.values()) or 1
-    top = sorted(sizes.items(), key=lambda kv: -kv[1])[:6]
-    shown = sum(size for _, size in top) or 1
+    top = sorted(sizes.items(), key=lambda kv: -kv[1])[:8]
 
     figures = [("Public projects", len(repos)), ("Releases shipped", releases),
                ("Commits, last 12 months", commits), ("Pull requests merged", merged)]
     rows = []
     for i, (label, value) in enumerate(figures):
-        y = 92 + i * 38
+        y = 88 + i * 36
         rows.append(f'<text x="34" y="{y}" class="label">{html.escape(label)}</text>'
-                    f'<text x="388" y="{y}" class="value" text-anchor="end">{value:,}</text>')
+                    f'<text x="390" y="{y}" class="value" text-anchor="end">{value:,}</text>')
 
-    bar, legend, x = [], [], 440.0
-    width = 386.0
+    bar, legend, x = [], [], 445.0
+    width = 380.0
     for i, (language, size) in enumerate(top):
         share = size / total
-        part = max(width * size / shown, 3)
+        part = width * share
         color = LANGUAGE_COLORS.get(language, "#9ea2bd")
-        bar.append(f'<rect x="{x:.1f}" y="76" width="{part:.1f}" height="12" fill="{color}"/>')
+        bar.append(f'<rect x="{x:.1f}" y="65" width="{part:.1f}" height="8" fill="{color}"/>')
         x += part
-        lx, ly = 440 + (i % 2) * 196, 120 + (i // 2) * 34
-        legend.append(f'<circle cx="{lx + 6}" cy="{ly - 5}" r="6" fill="{color}"/>'
-                      f'<text x="{lx + 20}" y="{ly}" class="label">{html.escape(language)}'
+        lx, ly = 445 + (i % 2) * 194, 105 + (i // 2) * 29
+        legend.append(f'<rect x="{lx}" y="{ly - 9}" width="8" height="8" fill="{color}"/>'
+                      f'<text x="{lx + 16}" y="{ly}" class="legend">{html.escape(language)}'
                       f' <tspan class="dim">{share:.0%}</tspan></text>')
 
-    updated = datetime.date.today().strftime("%B %-d, %Y")
+    if not legend:
+        legend.append('<text x="445" y="105" class="legend">No language data</text>')
+    updated = datetime.date.today().strftime("%b %d, %Y").replace(" 0", " ")
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1b2258"/><stop offset="0.6" stop-color="#0d0f2c"/><stop offset="1" stop-color="#140a2e"/>
-    </linearGradient>
-    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3bd2ff"/><stop offset="1" stop-color="#d040ff"/>
-    </linearGradient>
-    <clipPath id="bar"><rect x="440" y="76" width="{width:.0f}" height="12" rx="6"/></clipPath>
-  </defs>
   <style>
     text {{ font-family: "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; }}
-    .title {{ font-size: 20px; font-weight: 700; fill: #ffffff; }}
-    .label {{ font-size: 15px; fill: #d4d6e6; }}
-    .value {{ font-size: 17px; font-weight: 700; fill: #3bd2ff; }}
-    .dim {{ fill: #9ea2bd; }}
-    .note {{ font-size: 12px; fill: #9ea2bd; }}
+    .heading {{ font-size: 14px; font-weight: 700; letter-spacing: 1.3px; fill: #9fb9b5; }}
+    .label {{ font-size: 14px; fill: #cbd3d2; }}
+    .value {{ font-family: "DejaVu Sans Mono", monospace; font-size: 17px; font-weight: 700; fill: #f1f4f1; }}
+    .legend {{ font-size: 13px; fill: #dce3e0; }}
+    .dim {{ fill: #93a3a2; }}
+    .note {{ font-size: 11px; fill: #859694; }}
   </style>
-  <rect x="1.5" y="1.5" width="857" height="257" rx="18" fill="url(#bg)" stroke="url(#rim)" stroke-width="3"/>
-  <text x="34" y="48" class="title">GitHub at a glance</text>
-  <text x="440" y="48" class="title">Languages</text>
-  <line x1="414" y1="70" x2="414" y2="222" stroke="#2a3570" stroke-width="2"/>
+  <rect x="0.5" y="0.5" width="859" height="259" rx="5" fill="#111920" stroke="#394b4c"/>
+  <text x="34" y="40" class="heading">PUBLIC WORK</text>
+  <text x="445" y="40" class="heading">LANGUAGES BY CODE SIZE</text>
+  <line x1="34" y1="52" x2="826" y2="52" stroke="#394b4c"/>
+  <line x1="420" y1="65" x2="420" y2="213" stroke="#394b4c"/>
   {"".join(rows)}
-  <g clip-path="url(#bar)">{"".join(bar)}</g>
+  <rect x="445" y="65" width="{width:.0f}" height="8" fill="#3a484c"/>
+  {"".join(bar)}
   {"".join(legend)}
-  <text x="826" y="242" class="note" text-anchor="end">Updated {updated}</text>
+  <line x1="34" y1="225" x2="826" y2="225" stroke="#394b4c"/>
+  <text x="34" y="245" class="note">Public, non-fork repositories</text>
+  <text x="826" y="245" class="note" text-anchor="end">Updated {updated}</text>
 </svg>
 '''
 
