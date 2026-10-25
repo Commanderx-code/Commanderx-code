@@ -10,6 +10,10 @@ I build Linux tools that look after a machine for you: setting it up, keeping it
 - 🐟 Keeping **[Myfish](https://github.com/Commanderx-code/Myfish)**, my shell setup for Fish, Bash and Zsh, on Linux and macOS
 - 💾 Building **[Helix Boot](https://github.com/Commanderx-code/helix-boot)**, a multiboot rescue USB that builds itself from upstream
 
+<p>
+  <a href="https://x.com/therevanchistv"><img src="https://img.shields.io/badge/@therevanchistv-0d0f2c?style=for-the-badge&logo=x&logoColor=white" alt="X: @therevanchistv"></a>
+</p>
+
 ### 🚀 Featured projects
 
 <table>
