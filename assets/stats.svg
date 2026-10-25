@@ -1,27 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1b2258"/><stop offset="0.6" stop-color="#0d0f2c"/><stop offset="1" stop-color="#140a2e"/>
-    </linearGradient>
-    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3bd2ff"/><stop offset="1" stop-color="#d040ff"/>
-    </linearGradient>
-    <clipPath id="bar"><rect x="440" y="76" width="386" height="12" rx="6"/></clipPath>
-  </defs>
   <style>
     text { font-family: "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; }
-    .title { font-size: 20px; font-weight: 700; fill: #ffffff; }
-    .label { font-size: 15px; fill: #d4d6e6; }
-    .value { font-size: 17px; font-weight: 700; fill: #3bd2ff; }
-    .dim { fill: #9ea2bd; }
-    .note { font-size: 12px; fill: #9ea2bd; }
+    .heading { font-size: 14px; font-weight: 700; letter-spacing: 1.3px; fill: #9fb9b5; }
+    .label { font-size: 14px; fill: #cbd3d2; }
+    .value { font-family: "DejaVu Sans Mono", monospace; font-size: 17px; font-weight: 700; fill: #f1f4f1; }
+    .legend { font-size: 13px; fill: #dce3e0; }
+    .dim { fill: #93a3a2; }
+    .note { font-size: 11px; fill: #859694; }
   </style>
-  <rect x="1.5" y="1.5" width="857" height="257" rx="18" fill="url(#bg)" stroke="url(#rim)" stroke-width="3"/>
-  <text x="34" y="48" class="title">GitHub at a glance</text>
-  <text x="440" y="48" class="title">Languages</text>
-  <line x1="414" y1="70" x2="414" y2="222" stroke="#2a3570" stroke-width="2"/>
-  <text x="34" y="92" class="label">Public projects</text><text x="388" y="92" class="value" text-anchor="end">5</text><text x="34" y="130" class="label">Releases shipped</text><text x="388" y="130" class="value" text-anchor="end">159</text><text x="34" y="168" class="label">Commits, last 12 months</text><text x="388" y="168" class="value" text-anchor="end">757</text><text x="34" y="206" class="label">Pull requests merged</text><text x="388" y="206" class="value" text-anchor="end">278</text>
-  <g clip-path="url(#bar)"><rect x="440.0" y="76" width="184.9" height="12" fill="#dea584"/><rect x="624.9" y="76" width="99.1" height="12" fill="#3572A5"/><rect x="724.0" y="76" width="55.7" height="12" fill="#89e051"/><rect x="779.7" y="76" width="16.5" height="12" fill="#ff3e00"/><rect x="796.3" y="76" width="15.0" height="12" fill="#f1e05a"/><rect x="811.3" y="76" width="14.7" height="12" fill="#44a51c"/></g>
-  <circle cx="446" cy="115" r="6" fill="#dea584"/><text x="460" y="120" class="label">Rust <tspan class="dim">45%</tspan></text><circle cx="642" cy="115" r="6" fill="#3572A5"/><text x="656" y="120" class="label">Python <tspan class="dim">24%</tspan></text><circle cx="446" cy="149" r="6" fill="#89e051"/><text x="460" y="154" class="label">Shell <tspan class="dim">14%</tspan></text><circle cx="642" cy="149" r="6" fill="#ff3e00"/><text x="656" y="154" class="label">Svelte <tspan class="dim">4%</tspan></text><circle cx="446" cy="183" r="6" fill="#f1e05a"/><text x="460" y="188" class="label">JavaScript <tspan class="dim">4%</tspan></text><circle cx="642" cy="183" r="6" fill="#44a51c"/><text x="656" y="188" class="label">QML <tspan class="dim">4%</tspan></text>
-  <text x="826" y="242" class="note" text-anchor="end">Updated October 25, 2026</text>
+  <rect x="0.5" y="0.5" width="859" height="259" rx="5" fill="#111920" stroke="#394b4c"/>
+  <text x="34" y="40" class="heading">PUBLIC WORK</text>
+  <text x="445" y="40" class="heading">LANGUAGES BY CODE SIZE</text>
+  <line x1="34" y1="52" x2="826" y2="52" stroke="#394b4c"/>
+  <line x1="420" y1="65" x2="420" y2="213" stroke="#394b4c"/>
+  <text x="34" y="88" class="label">Public projects</text><text x="390" y="88" class="value" text-anchor="end">7</text><text x="34" y="124" class="label">Releases shipped</text><text x="390" y="124" class="value" text-anchor="end">162</text><text x="34" y="160" class="label">Commits, last 12 months</text><text x="390" y="160" class="value" text-anchor="end">691</text><text x="34" y="196" class="label">Pull requests merged</text><text x="390" y="196" class="value" text-anchor="end">253</text>
+  <rect x="445" y="65" width="380" height="8" fill="#3a484c"/>
+  <rect x="445.0" y="65" width="167.9" height="8" fill="#dea584"/><rect x="612.9" y="65" width="90.0" height="8" fill="#3572A5"/><rect x="702.9" y="65" width="50.7" height="8" fill="#89e051"/><rect x="753.5" y="65" width="15.0" height="8" fill="#ff3e00"/><rect x="768.6" y="65" width="13.6" height="8" fill="#f1e05a"/><rect x="782.2" y="65" width="13.4" height="8" fill="#44a51c"/><rect x="795.6" y="65" width="8.1" height="8" fill="#00ADD8"/><rect x="803.6" y="65" width="8.0" height="8" fill="#3178c6"/>
+  <rect x="445" y="96" width="8" height="8" fill="#dea584"/><text x="461" y="105" class="legend">Rust <tspan class="dim">44%</tspan></text><rect x="639" y="96" width="8" height="8" fill="#3572A5"/><text x="655" y="105" class="legend">Python <tspan class="dim">24%</tspan></text><rect x="445" y="125" width="8" height="8" fill="#89e051"/><text x="461" y="134" class="legend">Shell <tspan class="dim">13%</tspan></text><rect x="639" y="125" width="8" height="8" fill="#ff3e00"/><text x="655" y="134" class="legend">Svelte <tspan class="dim">4%</tspan></text><rect x="445" y="154" width="8" height="8" fill="#f1e05a"/><text x="461" y="163" class="legend">JavaScript <tspan class="dim">4%</tspan></text><rect x="639" y="154" width="8" height="8" fill="#44a51c"/><text x="655" y="163" class="legend">QML <tspan class="dim">4%</tspan></text><rect x="445" y="183" width="8" height="8" fill="#00ADD8"/><text x="461" y="192" class="legend">Go <tspan class="dim">2%</tspan></text><rect x="639" y="183" width="8" height="8" fill="#3178c6"/><text x="655" y="192" class="legend">TypeScript <tspan class="dim">2%</tspan></text>
+  <line x1="34" y1="225" x2="826" y2="225" stroke="#394b4c"/>
+  <text x="34" y="245" class="note">Public, non-fork repositories</text>
+  <text x="826" y="245" class="note" text-anchor="end">Updated Oct 25, 2026</text>
 </svg>

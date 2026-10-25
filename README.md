@@ -82,16 +82,16 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 
 ### 📊 Stats
 
-<img src="assets/stats.svg" alt="Public projects, stars, commits, merged pull requests and languages" width="100%">
+<img src="assets/stats.svg" alt="Public repositories, releases, commits, merged pull requests and languages" width="100%">
 
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**webos-launcher**](https://github.com/Commanderx-code/webos-launcher): A minimal home screen for LG webOS TVs: favorites, Plex rows, inputs, moving themes and a screensaver. Plain HTML, CSS and JavaScript for webOS 5 and later.
+- [**touchdown-cli**](https://github.com/Commanderx-code/touchdown-cli)
+- [**lazyrsync**](https://github.com/Commanderx-code/lazyrsync)
 - [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
-- [**Myfish**](https://github.com/Commanderx-code/Myfish): A customizable terminal setup for Linux and macOS. Fish, Bash or Zsh, with Starship, Nerd Fonts and optional Home Manager.
-- [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
 - [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
+- [**webos-launcher**](https://github.com/Commanderx-code/webos-launcher): A minimal home screen for LG webOS TVs: favorites, Plex rows, inputs, moving themes and a screensaver. Plain HTML, CSS and JavaScript for webOS 5 and later.
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
@@ -108,11 +108,11 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### ⭐ Recent stars
 
 <!-- STARS:START -->
+- [rogeriojunior31/lazyagents](https://github.com/rogeriojunior31/lazyagents): The lazygit for AI coding agents: skills, sessions, usage, providers and hooks for Claude Code, Codex, Gemini CLI, OpenCode, Pi, Crush and Hermes Agent.
+- [e12jassir/kickoff-cli](https://github.com/e12jassir/kickoff-cli): Live football scores, fixtures and match stats in your terminal — fast, keyboard-driven TUI built in Go.
+- [westpoint-io/lazyrsync](https://github.com/westpoint-io/lazyrsync): 🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH.
 - [throwaway96/slopbro](https://github.com/throwaway96/slopbro): PoC for jsserver vulnerability in webOS 3.5+(?)
 - [spocky/miproja1](https://github.com/spocky/miproja1)
-- [meddouribadis/arclauncher](https://github.com/meddouribadis/arclauncher): A minimal, open-source Android TV launcher featuring WiFi data usage widget, an inbuilt OLED friendly screensaver, and improved UX. A customized fork of FLauncher.
-- [lenucksi/aur-malware-check](https://github.com/lenucksi/aur-malware-check): Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.
-- [anderson-arlen/PacSmith](https://github.com/anderson-arlen/PacSmith): Install and manage .deb, .rpm, and other Linux packages as native Arch Linux packages without the AUR
 <!-- STARS:END -->
 
 <sub>The lists and stats above refresh every day.</sub>
