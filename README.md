@@ -4,8 +4,9 @@
 
 ### Hi, I'm Matt 👋
 
-I build Linux tools that look after a machine for you: setting it up, keeping it updated and backed up, and checking its health, with every change planned, shown to you and verified before it counts.
+I build Linux tools for setup, updates, backups and recovery, with changes planned, shown and verified. I also make terminal apps for the things I follow every day.
 
+- 🏈 Building **[Touchdown](https://github.com/Commanderx-code/touchdown-cli)**, a Go terminal dashboard for live NFL scores, game stats, standings and your favorite team
 - 🧰 Working on **[Helix Toolbox](https://github.com/Commanderx-code/Helix-toolbox)**, a terminal menu and desktop window for Arch, Debian, Ubuntu, Fedora and openSUSE
 - 🐟 Keeping **[Myfish](https://github.com/Commanderx-code/Myfish)**, my shell setup for Fish, Bash and Zsh, on Linux and macOS
 - 💾 Building **[Helix Boot](https://github.com/Commanderx-code/helix-boot)**, a multiboot rescue USB that builds itself from upstream
@@ -17,6 +18,15 @@ I build Linux tools that look after a machine for you: setting it up, keeping it
 ### 🚀 Featured projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4><a href="https://github.com/Commanderx-code/touchdown-cli">Touchdown</a></h4>
+      Live NFL scores and stats in your terminal: weekly games, a favorite-team dashboard, standings, season schedules and a game center.<br><br>
+      <img src="https://img.shields.io/github/v/release/Commanderx-code/touchdown-cli?style=flat-square&color=79e4b7&labelColor=0d0f2c&label=release" alt="Latest release">
+      <img src="https://img.shields.io/badge/Go-0d0f2c?style=flat-square&logo=go&logoColor=white" alt="Go">
+      <img src="https://img.shields.io/badge/Bubble_Tea-0d0f2c?style=flat-square" alt="Bubble Tea">
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Commanderx-code/Helix-toolbox">Helix Toolbox</a></h4>
@@ -54,6 +64,7 @@ I build Linux tools that look after a machine for you: setting it up, keeping it
 
 <p>
   <img src="https://img.shields.io/badge/Rust-0d0f2c?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Go-0d0f2c?style=for-the-badge&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Python-0d0f2c?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/TypeScript-0d0f2c?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Svelte-0d0f2c?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte">
