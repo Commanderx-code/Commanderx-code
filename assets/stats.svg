@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2258"/><stop offset="0.6" stop-color="#0d0f2c"/><stop offset="1" stop-color="#140a2e"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3bd2ff"/><stop offset="1" stop-color="#d040ff"/>
+    </linearGradient>
+    <clipPath id="bar"><rect x="440" y="76" width="386" height="12" rx="6"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; }
+    .title { font-size: 20px; font-weight: 700; fill: #ffffff; }
+    .label { font-size: 15px; fill: #d4d6e6; }
+    .value { font-size: 17px; font-weight: 700; fill: #3bd2ff; }
+    .dim { fill: #9ea2bd; }
+    .note { font-size: 12px; fill: #9ea2bd; }
+  </style>
+  <rect x="1.5" y="1.5" width="857" height="257" rx="18" fill="url(#bg)" stroke="url(#rim)" stroke-width="3"/>
+  <text x="34" y="48" class="title">GitHub at a glance</text>
+  <text x="440" y="48" class="title">Languages</text>
+  <line x1="414" y1="70" x2="414" y2="222" stroke="#2a3570" stroke-width="2"/>
+  <text x="34" y="92" class="label">Public projects</text><text x="388" y="92" class="value" text-anchor="end">5</text><text x="34" y="130" class="label">Releases shipped</text><text x="388" y="130" class="value" text-anchor="end">159</text><text x="34" y="168" class="label">Commits, last 12 months</text><text x="388" y="168" class="value" text-anchor="end">838</text><text x="34" y="206" class="label">Pull requests merged</text><text x="388" y="206" class="value" text-anchor="end">278</text>
+  <g clip-path="url(#bar)"><rect x="440.0" y="76" width="184.9" height="12" fill="#dea584"/><rect x="624.9" y="76" width="99.1" height="12" fill="#3572A5"/><rect x="724.0" y="76" width="55.7" height="12" fill="#89e051"/><rect x="779.7" y="76" width="16.5" height="12" fill="#ff3e00"/><rect x="796.3" y="76" width="15.0" height="12" fill="#f1e05a"/><rect x="811.3" y="76" width="14.7" height="12" fill="#44a51c"/></g>
+  <circle cx="446" cy="115" r="6" fill="#dea584"/><text x="460" y="120" class="label">Rust <tspan class="dim">45%</tspan></text><circle cx="642" cy="115" r="6" fill="#3572A5"/><text x="656" y="120" class="label">Python <tspan class="dim">24%</tspan></text><circle cx="446" cy="149" r="6" fill="#89e051"/><text x="460" y="154" class="label">Shell <tspan class="dim">14%</tspan></text><circle cx="642" cy="149" r="6" fill="#ff3e00"/><text x="656" y="154" class="label">Svelte <tspan class="dim">4%</tspan></text><circle cx="446" cy="183" r="6" fill="#f1e05a"/><text x="460" y="188" class="label">JavaScript <tspan class="dim">4%</tspan></text><circle cx="642" cy="183" r="6" fill="#44a51c"/><text x="656" y="188" class="label">QML <tspan class="dim">4%</tspan></text>
+  <text x="826" y="242" class="note" text-anchor="end">Updated October 25, 2026</text>
+</svg>

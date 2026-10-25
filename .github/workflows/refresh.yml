@@ -1,0 +1,38 @@
+name: Refresh the profile
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["README.md", "assets/stats.svg"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Rebuild the lists and the stats card
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -B .github/scripts/refresh.py
+      - name: Commit what changed
+        run: |
+          git add README.md assets/stats.svg
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898182+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Refresh the profile"
+          git push
