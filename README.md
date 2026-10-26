@@ -87,32 +87,32 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**touchdown-cli**](https://github.com/Commanderx-code/touchdown-cli)
-- [**lazyrsync**](https://github.com/Commanderx-code/lazyrsync)
 - [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
+- [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
 - [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
-- [**webos-launcher**](https://github.com/Commanderx-code/webos-launcher): A minimal home screen for LG webOS TVs: favorites, Plex rows, inputs, moving themes and a screensaver. Plain HTML, CSS and JavaScript for webOS 5 and later.
+- [**Myfish**](https://github.com/Commanderx-code/Myfish): A customizable terminal setup for Linux and macOS. Fish, Bash or Zsh, with Starship, Nerd Fonts and optional Home Manager.
+- [**touchdown-cli**](https://github.com/Commanderx-code/touchdown-cli)
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
+- [Update vulnerable build dependencies](https://github.com/Commanderx-code/helix-boot/pull/15) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
 - [Publish the crates in a job of their own](https://github.com/Commanderx-code/Helix-toolbox/pull/148) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
 - [Uninstall beside another Home Manager setup, and other review follow-ups](https://github.com/Commanderx-code/Myfish/pull/30) in [Commanderx-code/Myfish](https://github.com/Commanderx-code/Myfish) · merged
 - [Fix bugs found in a repo-wide review](https://github.com/Commanderx-code/Myfish/pull/29) in [Commanderx-code/Myfish](https://github.com/Commanderx-code/Myfish) · merged
 - [Helix Toolbox 1.25.0](https://github.com/Commanderx-code/Helix-toolbox/pull/147) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
 - [Test the window's TypeScript with Vitest](https://github.com/Commanderx-code/Helix-toolbox/pull/146) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Give every recovery restore command a fresh backup suffix](https://github.com/Commanderx-code/Myfish/pull/28) in [Commanderx-code/Myfish](https://github.com/Commanderx-code/Myfish) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
 
 <!-- STARS:START -->
+- [kheddaoui1/webos-control-center](https://github.com/kheddaoui1/webos-control-center): An always-on-top Windows 11 remote for LG webOS TVs. Pairs directly over your LAN - no cloud, no account, no phone app.
 - [rogeriojunior31/lazyagents](https://github.com/rogeriojunior31/lazyagents): The lazygit for AI coding agents: skills, sessions, usage, providers and hooks for Claude Code, Codex, Gemini CLI, OpenCode, Pi, Crush and Hermes Agent.
 - [e12jassir/kickoff-cli](https://github.com/e12jassir/kickoff-cli): Live football scores, fixtures and match stats in your terminal — fast, keyboard-driven TUI built in Go.
 - [westpoint-io/lazyrsync](https://github.com/westpoint-io/lazyrsync): 🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH.
 - [throwaway96/slopbro](https://github.com/throwaway96/slopbro): PoC for jsserver vulnerability in webOS 3.5+(?)
-- [spocky/miproja1](https://github.com/spocky/miproja1)
 <!-- STARS:END -->
 
 <sub>The lists and stats above refresh every day.</sub>
