@@ -87,9 +87,9 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
+- [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
 - [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
 - [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
-- [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
 - [**Myfish**](https://github.com/Commanderx-code/Myfish): A customizable terminal setup for Linux and macOS. Fish, Bash or Zsh, with Starship, Nerd Fonts and optional Home Manager.
 - [**touchdown-cli**](https://github.com/Commanderx-code/touchdown-cli)
 <!-- UPDATED:END -->
@@ -108,11 +108,11 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### ⭐ Recent stars
 
 <!-- STARS:START -->
+- [obra/superpowers](https://github.com/obra/superpowers): An agentic skills framework & software development methodology that works.
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv): Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 - [kheddaoui1/webos-control-center](https://github.com/kheddaoui1/webos-control-center): An always-on-top Windows 11 remote for LG webOS TVs. Pairs directly over your LAN - no cloud, no account, no phone app.
 - [rogeriojunior31/lazyagents](https://github.com/rogeriojunior31/lazyagents): The lazygit for AI coding agents: skills, sessions, usage, providers and hooks for Claude Code, Codex, Gemini CLI, OpenCode, Pi, Crush and Hermes Agent.
 - [e12jassir/kickoff-cli](https://github.com/e12jassir/kickoff-cli): Live football scores, fixtures and match stats in your terminal — fast, keyboard-driven TUI built in Go.
-- [westpoint-io/lazyrsync](https://github.com/westpoint-io/lazyrsync): 🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress, even over SSH.
-- [throwaway96/slopbro](https://github.com/throwaway96/slopbro): PoC for jsserver vulnerability in webOS 3.5+(?)
 <!-- STARS:END -->
 
 <sub>The lists and stats above refresh every day.</sub>
