@@ -108,11 +108,11 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### ⭐ Recent stars
 
 <!-- STARS:START -->
+- [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot): Open-source Grok Bot alternative with a virtual machine that bots can use
 - [obra/superpowers](https://github.com/obra/superpowers): An agentic skills framework & software development methodology that works.
 - [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv): Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 - [kheddaoui1/webos-control-center](https://github.com/kheddaoui1/webos-control-center): An always-on-top Windows 11 remote for LG webOS TVs. Pairs directly over your LAN - no cloud, no account, no phone app.
 - [rogeriojunior31/lazyagents](https://github.com/rogeriojunior31/lazyagents): The lazygit for AI coding agents: skills, sessions, usage, providers and hooks for Claude Code, Codex, Gemini CLI, OpenCode, Pi, Crush and Hermes Agent.
-- [e12jassir/kickoff-cli](https://github.com/e12jassir/kickoff-cli): Live football scores, fixtures and match stats in your terminal — fast, keyboard-driven TUI built in Go.
 <!-- STARS:END -->
 
 <sub>The lists and stats above refresh every day.</sub>
