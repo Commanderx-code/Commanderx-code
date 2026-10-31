@@ -87,22 +87,22 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
 - [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
-- [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
+- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
 - [**Myfish**](https://github.com/Commanderx-code/Myfish): A customizable terminal setup for Linux and macOS. Fish, Bash or Zsh, with Starship, Nerd Fonts and optional Home Manager.
-- [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
+- [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
+- [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
+- [Meta tags: locale, share-card alt text and type, home-screen icon](https://github.com/Commanderx-code/helix-site/pull/5) in [Commanderx-code/helix-site](https://github.com/Commanderx-code/helix-site) · merged
+- [Meta tags: descriptions, share cards, locale and home-screen icon](https://github.com/Commanderx-code/helix-docs/pull/3) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · merged
+- [Home page and sidebar in the style of a docs portal](https://github.com/Commanderx-code/helix-docs/pull/2) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · merged
+- [Link the public status page from the footer](https://github.com/Commanderx-code/helix-site/pull/4) in [Commanderx-code/helix-site](https://github.com/Commanderx-code/helix-site) · merged
+- [Point the Documentation buttons at docs.helixtech.app](https://github.com/Commanderx-code/helix-site/pull/3) in [Commanderx-code/helix-site](https://github.com/Commanderx-code/helix-site) · merged
 - [Update vulnerable build dependencies](https://github.com/Commanderx-code/helix-boot/pull/15) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
-- [Publish the crates in a job of their own](https://github.com/Commanderx-code/Helix-toolbox/pull/148) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Uninstall beside another Home Manager setup, and other review follow-ups](https://github.com/Commanderx-code/Myfish/pull/30) in [Commanderx-code/Myfish](https://github.com/Commanderx-code/Myfish) · merged
-- [Fix bugs found in a repo-wide review](https://github.com/Commanderx-code/Myfish/pull/29) in [Commanderx-code/Myfish](https://github.com/Commanderx-code/Myfish) · merged
-- [Helix Toolbox 1.25.0](https://github.com/Commanderx-code/Helix-toolbox/pull/147) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Test the window's TypeScript with Vitest](https://github.com/Commanderx-code/Helix-toolbox/pull/146) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
