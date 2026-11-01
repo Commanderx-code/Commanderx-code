@@ -87,22 +87,22 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
-- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
-- [**Myfish**](https://github.com/Commanderx-code/Myfish): A customizable terminal setup for Linux and macOS. Fish, Bash or Zsh, with Starship, Nerd Fonts and optional Home Manager.
+- [**touchdown-cli**](https://github.com/Commanderx-code/touchdown-cli)
 - [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
-- [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
+- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
+- [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
+- [**webos-launcher**](https://github.com/Commanderx-code/webos-launcher): A minimal home screen for LG webOS TVs: favorites, Plex rows, inputs, moving themes and a screensaver. Plain HTML, CSS and JavaScript for webOS 5 and later.
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
-- [Meta tags: locale, share-card alt text and type, home-screen icon](https://github.com/Commanderx-code/helix-site/pull/5) in [Commanderx-code/helix-site](https://github.com/Commanderx-code/helix-site) · merged
-- [Meta tags: descriptions, share cards, locale and home-screen icon](https://github.com/Commanderx-code/helix-docs/pull/3) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · merged
-- [Home page and sidebar in the style of a docs portal](https://github.com/Commanderx-code/helix-docs/pull/2) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · merged
-- [Link the public status page from the footer](https://github.com/Commanderx-code/helix-site/pull/4) in [Commanderx-code/helix-site](https://github.com/Commanderx-code/helix-site) · merged
-- [Point the Documentation buttons at docs.helixtech.app](https://github.com/Commanderx-code/helix-site/pull/3) in [Commanderx-code/helix-site](https://github.com/Commanderx-code/helix-site) · merged
-- [Update vulnerable build dependencies](https://github.com/Commanderx-code/helix-boot/pull/15) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
+- [Browse any team's schedule and the whole season](https://github.com/Commanderx-code/touchdown-cli/pull/3) in [Commanderx-code/touchdown-cli](https://github.com/Commanderx-code/touchdown-cli) · open
+- [Homelab: the ZimaBoard page](https://github.com/Commanderx-code/helix-docs/pull/8) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · merged
+- [Homelab: the ZimaBoard page](https://github.com/Commanderx-code/helix-docs/pull/7) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · closed
+- [Homelab: the OPNsense page](https://github.com/Commanderx-code/helix-docs/pull/6) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · merged
+- [Back to TypeScript 6: the type checker does not take 7 yet](https://github.com/Commanderx-code/helix-docs/pull/5) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · merged
+- [Show the live situation and a scoring feed on the dashboard](https://github.com/Commanderx-code/touchdown-cli/pull/2) in [Commanderx-code/touchdown-cli](https://github.com/Commanderx-code/touchdown-cli) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
