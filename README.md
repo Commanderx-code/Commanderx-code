@@ -97,22 +97,22 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
-- [Go and Astro support with debugging in Neovim and Zed](https://github.com/Commanderx-code/dotfiles/pull/6) in [Commanderx-code/dotfiles](https://github.com/Commanderx-code/dotfiles) · open
-- [Keep secrets and personal files out of the repo](https://github.com/Commanderx-code/KyberFox/pull/1) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Sign in to the phone remote with a form, and lock down the relay container](https://github.com/Commanderx-code/webos-launcher/pull/2) in [Commanderx-code/webos-launcher](https://github.com/Commanderx-code/webos-launcher) · merged
-- [Refuse a push that adds a private value](https://github.com/Commanderx-code/dotfiles/pull/4) in [Commanderx-code/dotfiles](https://github.com/Commanderx-code/dotfiles) · merged
-- [backup-health reports a failed run, not just an old success](https://github.com/Commanderx-code/dotfiles/pull/3) in [Commanderx-code/dotfiles](https://github.com/Commanderx-code/dotfiles) · merged
-- [Add the CPU turbo cap unit and restore-power](https://github.com/Commanderx-code/dotfiles/pull/2) in [Commanderx-code/dotfiles](https://github.com/Commanderx-code/dotfiles) · merged
+- [Polish Kyber new tabs and settings styling](https://github.com/Commanderx-code/KyberFox/pull/18) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Two doc lines that missed PR #13](https://github.com/Commanderx-code/KyberFox/pull/17) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Kyber look: themes, window skin, new tab and private page](https://github.com/Commanderx-code/KyberFox/pull/16) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Download and check the pacman key before importing it](https://github.com/Commanderx-code/KyberFox/pull/15) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Lock Mozilla's VPN, Relay, Monitor and stories off](https://github.com/Commanderx-code/KyberFox/pull/14) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Add the roadmap and project documents](https://github.com/Commanderx-code/KyberFox/pull/13) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
 
 <!-- STARS:START -->
+- [brave/adblock-rust](https://github.com/brave/adblock-rust): Brave's Rust-based adblock engine
+- [benjitaylor/skills](https://github.com/benjitaylor/skills): Skills for AI coding agents.
 - [traefik/traefik](https://github.com/traefik/traefik): The Cloud Native Application Proxy
 - [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot): Open-source Grok Bot alternative with a virtual machine that bots can use
 - [obra/superpowers](https://github.com/obra/superpowers): An agentic skills framework & software development methodology that works.
-- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv): Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-- [kheddaoui1/webos-control-center](https://github.com/kheddaoui1/webos-control-center): An always-on-top Windows 11 remote for LG webOS TVs. Pairs directly over your LAN - no cloud, no account, no phone app.
 <!-- STARS:END -->
 
 <sub>The lists and stats above refresh every day.</sub>
