@@ -97,12 +97,12 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
-- [Polish Kyber new tabs and settings styling](https://github.com/Commanderx-code/KyberFox/pull/18) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Two doc lines that missed PR #13](https://github.com/Commanderx-code/KyberFox/pull/17) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Kyber look: themes, window skin, new tab and private page](https://github.com/Commanderx-code/KyberFox/pull/16) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Download and check the pacman key before importing it](https://github.com/Commanderx-code/KyberFox/pull/15) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Lock Mozilla's VPN, Relay, Monitor and stories off](https://github.com/Commanderx-code/KyberFox/pull/14) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Add the roadmap and project documents](https://github.com/Commanderx-code/KyberFox/pull/13) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Stop fetching the password manager and Monitor Remote Settings lists](https://github.com/Commanderx-code/KyberFox/pull/43) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Record the network audit rerun on 159.0.1-4](https://github.com/Commanderx-code/KyberFox/pull/42) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Bundle uBlock Origin 1.75.4](https://github.com/Commanderx-code/KyberFox/pull/41) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Allow uBlock Origin in private windows by default](https://github.com/Commanderx-code/KyberFox/pull/40) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Hide Firefox's Light, Dark and Alpenglow themes in Add-ons and themes](https://github.com/Commanderx-code/KyberFox/pull/39) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Offer Cloudflare and NextDNS for DNS over HTTPS; turn off the Firefox themes picker](https://github.com/Commanderx-code/KyberFox/pull/38) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
