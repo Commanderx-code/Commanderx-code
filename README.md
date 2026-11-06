@@ -88,21 +88,21 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 
 <!-- UPDATED:START -->
 - [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
+- [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
 - [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
 - [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
 - [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
-- [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
-- [Stop fetching the password manager and Monitor Remote Settings lists](https://github.com/Commanderx-code/KyberFox/pull/43) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Record the network audit rerun on 159.0.1-4](https://github.com/Commanderx-code/KyberFox/pull/42) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Bundle uBlock Origin 1.75.4](https://github.com/Commanderx-code/KyberFox/pull/41) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Allow uBlock Origin in private windows by default](https://github.com/Commanderx-code/KyberFox/pull/40) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Hide Firefox's Light, Dark and Alpenglow themes in Add-ons and themes](https://github.com/Commanderx-code/KyberFox/pull/39) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Offer Cloudflare and NextDNS for DNS over HTTPS; turn off the Firefox themes picker](https://github.com/Commanderx-code/KyberFox/pull/38) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Helix Toolbox 1.26.0, with a status for Android Debloater and Dank Shell](https://github.com/Commanderx-code/Helix-toolbox/pull/154) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · open
+- [Release 159.0.1-9](https://github.com/Commanderx-code/KyberFox/pull/59) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Helix Toolbox 1.26.0: install it and its window in one command](https://github.com/Commanderx-code/Helix-toolbox/pull/153) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
+- [Put the Kyber Fox icon on the Windows installer](https://github.com/Commanderx-code/KyberFox/pull/58) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Pin the build ID so Windows stops reinstalling the same update](https://github.com/Commanderx-code/KyberFox/pull/57) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Release 159.0.1-8](https://github.com/Commanderx-code/KyberFox/pull/56) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
