@@ -87,22 +87,22 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
+- [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
 - [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
-- [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
 - [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
+- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 - [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
-- [Helix Toolbox 1.26.0, with a status for Android Debloater and Dank Shell](https://github.com/Commanderx-code/Helix-toolbox/pull/154) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · open
-- [Release 159.0.1-9](https://github.com/Commanderx-code/KyberFox/pull/59) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Helix Toolbox 1.26.0: install it and its window in one command](https://github.com/Commanderx-code/Helix-toolbox/pull/153) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Put the Kyber Fox icon on the Windows installer](https://github.com/Commanderx-code/KyberFox/pull/58) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Pin the build ID so Windows stops reinstalling the same update](https://github.com/Commanderx-code/KyberFox/pull/57) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
-- [Release 159.0.1-8](https://github.com/Commanderx-code/KyberFox/pull/56) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Fetch four tools at once and leave slow SourceForge mirrors](https://github.com/Commanderx-code/helix-boot/pull/4) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
+- [Make Helix Steel the default theme and add five artwork presets](https://github.com/Commanderx-code/helix-boot/pull/3) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
+- [Release in about twenty minutes, and not for documentation](https://github.com/Commanderx-code/Helix-toolbox/pull/157) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
+- [Show the new banner at the top of the README](https://github.com/Commanderx-code/Helix-toolbox/pull/156) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
+- [Put the list's headings over their columns, and keep its rows short](https://github.com/Commanderx-code/Helix-toolbox/pull/155) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
+- [Record the list delivery decision](https://github.com/Commanderx-code/KyberFox/pull/62) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
