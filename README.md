@@ -88,10 +88,10 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 
 <!-- UPDATED:START -->
 - [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
-- [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
-- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
-- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 - [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
+- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
+- [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
+- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
