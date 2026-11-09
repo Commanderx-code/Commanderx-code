@@ -87,22 +87,22 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
-- [**Myfish**](https://github.com/Commanderx-code/Myfish): A customizable terminal setup for Linux and macOS. Fish, Bash or Zsh, with Starship, Nerd Fonts and optional Home Manager.
-- [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
-- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
+- [**webos-launcher**](https://github.com/Commanderx-code/webos-launcher): A minimal home screen for LG webOS TVs: favorites, Plex rows, inputs, moving themes and a screensaver. Plain HTML, CSS and JavaScript for webOS 5 and later.
+- [**touchdown-cli**](https://github.com/Commanderx-code/touchdown-cli)
+- [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
 - [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
+- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
-- [Fetch four tools at once and leave slow SourceForge mirrors](https://github.com/Commanderx-code/helix-boot/pull/4) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
-- [Make Helix Steel the default theme and add five artwork presets](https://github.com/Commanderx-code/helix-boot/pull/3) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
-- [Release in about twenty minutes, and not for documentation](https://github.com/Commanderx-code/Helix-toolbox/pull/157) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Show the new banner at the top of the README](https://github.com/Commanderx-code/Helix-toolbox/pull/156) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Put the list's headings over their columns, and keep its rows short](https://github.com/Commanderx-code/Helix-toolbox/pull/155) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Record the list delivery decision](https://github.com/Commanderx-code/KyberFox/pull/62) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Move GitHub Actions to their Node 24 releases](https://github.com/Commanderx-code/touchdown-cli/pull/6) in [Commanderx-code/touchdown-cli](https://github.com/Commanderx-code/touchdown-cli) · open
+- [Move GitHub Actions to their Node 24 releases](https://github.com/Commanderx-code/Helix-toolbox/pull/159) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · open
+- [Move GitHub Actions to their Node 24 releases](https://github.com/Commanderx-code/Commanderx-code/pull/1) in [Commanderx-code/Commanderx-code](https://github.com/Commanderx-code/Commanderx-code) · merged
+- [Emulate a Cortex-A72 in the ARM64 virtual machines](https://github.com/Commanderx-code/Helix-toolbox/pull/158) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · open
+- [Put the new logo on the splash](https://github.com/Commanderx-code/helix-boot/pull/9) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
+- [List Ventoy 1.1.18's checksum for the Linux window](https://github.com/Commanderx-code/helix-boot/pull/8) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
