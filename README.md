@@ -87,8 +87,8 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
 - [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
+- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
 - [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 - [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
 - [**touchdown-cli**](https://github.com/Commanderx-code/touchdown-cli)
