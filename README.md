@@ -87,8 +87,8 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 - [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
+- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 - [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
 - [**Myfish**](https://github.com/Commanderx-code/Myfish): A customizable terminal setup for Linux and macOS. Fish, Bash or Zsh, with Starship, Nerd Fonts and optional Home Manager.
 - [**helix-boot**](https://github.com/Commanderx-code/helix-boot): Helix Boot: a multiboot rescue USB that builds itself from upstream. Verified downloads, a Ventoy menu, the Lazarus PE Windows desktop, PortableApps.com with custom themes, and offline packs.
