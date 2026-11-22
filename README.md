@@ -87,32 +87,32 @@ I build Linux tools for setup, updates, backups and recovery, with changes plann
 ### 🌱 Recently updated
 
 <!-- UPDATED:START -->
-- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
+- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 - [**helix-docs**](https://github.com/Commanderx-code/helix-docs): Documentation for the Helix tools: docs.helixtech.app
 - [**Helix-toolbox**](https://github.com/Commanderx-code/Helix-toolbox): Set up and look after a Linux machine from a terminal menu: installs, dotfiles, updates, backups and health checks, every change planned, confirmed and verified. Arch, Debian, Ubuntu, Fedora, openSUSE.
-- [**KyberFox**](https://github.com/Commanderx-code/KyberFox)
 - [**dotfiles**](https://github.com/Commanderx-code/dotfiles): My Garuda Linux and KDE Plasma workstation, managed with Nix Home Manager: Fish, Starship, Fastfetch and Neovim from one source, one theme everywhere, and Restic backups.
+- [**helix-site**](https://github.com/Commanderx-code/helix-site): The Helix website: helixtech.app
 <!-- UPDATED:END -->
 
 ### 🔨 Recent pull requests
 
 <!-- PULLS:START -->
+- [Drop a local home path from the UI notes](https://github.com/Commanderx-code/KyberFox/pull/66) in [Commanderx-code/KyberFox](https://github.com/Commanderx-code/KyberFox) · merged
+- [Redact the old VPS address from planning docs](https://github.com/Commanderx-code/helix-docs/pull/18) in [Commanderx-code/helix-docs](https://github.com/Commanderx-code/helix-docs) · open
+- [Show Python in the prompt only for real projects](https://github.com/Commanderx-code/dotfiles/pull/12) in [Commanderx-code/dotfiles](https://github.com/Commanderx-code/dotfiles) · merged
 - [Move GitHub Actions to their Node 24 releases](https://github.com/Commanderx-code/touchdown-cli/pull/6) in [Commanderx-code/touchdown-cli](https://github.com/Commanderx-code/touchdown-cli) · merged
 - [Move GitHub Actions to their Node 24 releases](https://github.com/Commanderx-code/Helix-toolbox/pull/159) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
 - [Move GitHub Actions to their Node 24 releases](https://github.com/Commanderx-code/Commanderx-code/pull/1) in [Commanderx-code/Commanderx-code](https://github.com/Commanderx-code/Commanderx-code) · merged
-- [Emulate a Cortex-A72 in the ARM64 virtual machines](https://github.com/Commanderx-code/Helix-toolbox/pull/158) in [Commanderx-code/Helix-toolbox](https://github.com/Commanderx-code/Helix-toolbox) · merged
-- [Put the new logo on the splash](https://github.com/Commanderx-code/helix-boot/pull/9) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
-- [List Ventoy 1.1.18's checksum for the Linux window](https://github.com/Commanderx-code/helix-boot/pull/8) in [Commanderx-code/helix-boot](https://github.com/Commanderx-code/helix-boot) · merged
 <!-- PULLS:END -->
 
 ### ⭐ Recent stars
 
 <!-- STARS:START -->
+- [CachyOS/cachyos-recovery](https://github.com/CachyOS/cachyos-recovery): CachyOS Recovery image
 - [brave/adblock-rust](https://github.com/brave/adblock-rust): Brave's Rust-based adblock engine
 - [benjitaylor/skills](https://github.com/benjitaylor/skills): Skills for AI coding agents.
 - [traefik/traefik](https://github.com/traefik/traefik): The Cloud Native Application Proxy
 - [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot): Open-source Grok Bot alternative with a virtual machine that bots can use
-- [obra/superpowers](https://github.com/obra/superpowers): An agentic skills framework & software development methodology that works.
 <!-- STARS:END -->
 
 <sub>The lists and stats above refresh every day.</sub>
